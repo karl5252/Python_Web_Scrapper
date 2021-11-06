@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 
 # get page as html
 # idenftify elements that can be used -> anchor, button, image, input, select, textarea
+# list them grouped by type
+# print into JSON file
 
 URL = "https://realpython.github.io/fake-jobs/"
 page = requests.get(URL)
